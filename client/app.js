@@ -2,7 +2,7 @@
 function getGymValue() {
   var uiCheck = document.getElementById("uiGym")
   var i = 0;
-  if(checkbox.checked == true){
+  if(uiCheck.checked == true){
     i = 1;
     return parseInt(i);
   }
@@ -12,33 +12,31 @@ function getGymValue() {
 function getLiftValue() {
   var uiCheck = document.getElementById("uiLift")
   var i = 0;
-  if(checkbox.checked == true){
+  if(uiCheck.checked == true){
     i = 1;
     return parseInt(i);
   }
   return parseInt(i);
 }
-f
+
 function getParkingValue() {
   var uiCheck = document.getElementById("uiParking")
   var i = 0;
-  if(checkbox.checked == true){
+  if(uiCheck.checked == true){
     i = 1;
     return parseInt(i);
   }
   return parseInt(i);
 }
-f
 function getClubValue() {
   var uiCheck = document.getElementById("uiClub")
   var i = 0;
-  if(checkbox.checked == true){
+  if(uiCheck.checked == true){
     i = 1;
     return parseInt(i);
   }
   return parseInt(i);
 }
-f
 function getBHKValue() {
   var uiBHK = document.getElementsByName("uiBHK");
   for(var i in uiBHK) {
